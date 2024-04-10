@@ -46,11 +46,11 @@ img {
   text-transform: uppercase;
   margin-left: 40px;
 }
-.navLink {
+/* .navLink {
   text-decoration: none;
   color: black;
   margin-left: 20px;
-}
+} */
 
 .cartCard {
   display: flex;

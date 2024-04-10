@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import './Navbar.css';
 
 const Navbar = () => {
     const items = useSelector((state) => state.cart);
@@ -15,12 +16,12 @@ const Navbar = () => {
             <span className="logo">REDUX STORE</span>
             <div>
                 <Link className="navLink" to="/">
-                    Home
+                    HOME
                 </Link>
                 <Link className="navLink" to="/cart">
-                    Cart
+                    CART
                 </Link>
-                <span className="cartCount">Cart items: {items.length}</span>
+                <span className="cartCount">CART ITEMS: {items.length}</span>
             </div>
         </div>
     );
