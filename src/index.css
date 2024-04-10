@@ -11,18 +11,18 @@ body {
 img {
   height: 80px;
 }
-.card {
+/* .card {
   background: white;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
-}
-.productsWrapper {
+} */
+/* .productsWrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-}
-.btn {
+} */
+/* .btn {
   border: none;
   outline: none;
   background: #764abc;
@@ -32,11 +32,11 @@ img {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-}
-
+} */
+/* 
 .btn:hover {
   background: #513282;
-}
+} */
 
 .heading {
   padding: 25px 0;

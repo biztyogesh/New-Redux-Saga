@@ -1,0 +1,28 @@
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  .card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #4d488c 44.92%, rgba(77, 72, 140, 0.8) 100%);
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;;
+    transition: all 0.1s ease-in-out;
+  }
+  
+.btn:hover {
+    background: #49b908;
+  }

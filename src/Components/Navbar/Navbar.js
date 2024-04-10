@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { ReactComponent as Redux } from './../../assets/icons8-redux.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -13,7 +14,9 @@ const Navbar = () => {
                 justifyContent: 'space-between',
             }}
         >
-            <span className="logo">REDUX STORE</span>
+            <div> <Redux/>
+            <span className="logo">REDUX STORE</span></div>
+           
             <div>
                 <Link className="navLink" to="/">
                     HOME
